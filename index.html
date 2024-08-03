@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="icon.png" type="x-icon">
+</head>
+
+<body>
+
+    <form action="" class="form">
+        <div class="input-container">
+            <label for="">Fill the Form </label>
+            <input type="text" placeholder="Player 1" id="player1-name">
+            <input type="text" placeholder="Player 2" id="player2-name">
+            <input type="button" value="Submit" id="submitBtn">
+        </div>
+    </form>
+
+    <main>
+        <div class="player1-detail">
+            <h1 id="player1-username">Player 1: Saif</h1>
+            <p id="player1-score"></p>
+            <p id="player-mark">Mark: X</p>
+        </div>
+        <div class="game-board">
+            <h1 id="title">Tic Tac Toe</h1>
+            <p id="status"></p>
+            <div class="grid-container">
+                <div class="cell" cellIndex="0"></div>
+                <div class="cell" cellIndex="1"></div>
+                <div class="cell" cellIndex="2"></div>
+                <div class="cell" cellIndex="3"></div>
+                <div class="cell" cellIndex="4"></div>
+                <div class="cell" cellIndex="5"></div>
+                <div class="cell" cellIndex="6"></div>
+                <div class="cell" cellIndex="7"></div>
+                <div class="cell" cellIndex="8"></div>
+            </div>
+            <button id="restart-Btn">Restart</button>
+        </div>
+        <div class="player2-detail">
+            <h1 id="player2-username">Player 2: Hamid</h1>
+            <p id="player2-score"></p>
+            <p id="player-mark">Mark: O</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
